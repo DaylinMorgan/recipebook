@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Recipe Book</title>
+    <link>https://recipes.dayl.in/tags/</link>
+    <description>Recent content in Tags on Recipe Book</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Mar 2021 11:01:29 -0500</lastBuildDate><atom:link href="https://recipes.dayl.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>untested</title>
+      <link>https://recipes.dayl.in/tags/untested/</link>
+      <pubDate>Fri, 26 Mar 2021 11:01:29 -0500</pubDate>
+      
+      <guid>https://recipes.dayl.in/tags/untested/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegan</title>
+      <link>https://recipes.dayl.in/tags/vegan/</link>
+      <pubDate>Fri, 26 Mar 2021 11:01:29 -0500</pubDate>
+      
+      <guid>https://recipes.dayl.in/tags/vegan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetarian</title>
+      <link>https://recipes.dayl.in/tags/vegetarian/</link>
+      <pubDate>Fri, 26 Mar 2021 11:01:29 -0500</pubDate>
+      
+      <guid>https://recipes.dayl.in/tags/vegetarian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sauce</title>
+      <link>https://recipes.dayl.in/tags/sauce/</link>
+      <pubDate>Thu, 25 Mar 2021 19:37:23 -0500</pubDate>
+      
+      <guid>https://recipes.dayl.in/tags/sauce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sweet</title>
+      <link>https://recipes.dayl.in/tags/sweet/</link>
+      <pubDate>Thu, 25 Mar 2021 19:31:55 -0500</pubDate>
+      
+      <guid>https://recipes.dayl.in/tags/sweet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
