@@ -1,0 +1,14 @@
+<div class="navigation">
+  <section class="dropdown", style="float:right;">
+    <a href="javascript:void(0)" class="dropbtn">&#9776;</a>
+        <div class="dropdown-content">
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+          <a href="{{ .URL | absLangURL }}"> {{ .Name }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+      </ul>
+    </label>
+  </section>
+</div>

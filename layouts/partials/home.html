@@ -1,0 +1,14 @@
+<div id="wrapper" class="index">
+  <!-- table of contents -->
+  <section id="toc">
+    <h1 id="mainTitle">Recipe Book</h1>
+    <section class="toc">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+      {{ range $paginator.Pages.ByTitle }}
+      <ul>
+        <li> <a href="{{ .RelPermalink }} ">{{ .Title }} </a> </li>
+
+      </ul>
+      {{ end }}
+    </section>
+</div>
