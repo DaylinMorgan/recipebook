@@ -1,0 +1,44 @@
+baseURL: https://recipes.dayl.in
+disablePathToLower: true
+languageCode: en-us
+title: Recipe Book
+publishDir: docs
+
+defaultcontentlanguage: en
+# paginate: 20
+canonifyurls: true
+
+params:
+  author: Daylin Morgan
+  description: recipes for daylin and friends
+  keywords: 'recipes'
+  favicon_32: /images/favicon-32x32.png
+  favicon_16: /images/favicon-16x16.png
+  footercontent: 
+  hidecredits: false
+  hidecopyright: false
+  showNavTitle: false           # Boolean: show site title in nav bar
+  custom_css: 
+    - style.css
+
+menu:
+  main:
+    - name: Home
+      weight: 1
+      url: /
+    - name: Category
+      weight: 2
+      url: /category/
+    - name: Cuisine
+      weight: 3
+      url: /cuisine/
+    - name: Tags
+      weight: 4
+      url: /tags/
+    # - name: Recipes
+    #   weight: 5
+    #   url: /recipes/
+taxonomies:
+  category: category
+  cusine: cuisine
+  tag: tags
