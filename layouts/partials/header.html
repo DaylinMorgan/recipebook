@@ -1,6 +1,6 @@
 <div class="navbar">
   <a href="{{ .Site.BaseURL }}" id="mainTitle">Recipe Book</a>
-  <section class="dropdown">
+  <div class="dropdown">
     <a class="dropbtn" onclick="myFunction()">&#9776;</a>
         <div class="dropdown-content" id="myDropdown">
         {{ with .Site.Menus.main}}
@@ -10,5 +10,5 @@
         {{ end }}
       </div>
       </ul>
-  </section>
+    </div>
 </div>
