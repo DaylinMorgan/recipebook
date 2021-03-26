@@ -17,9 +17,9 @@ params:
   footercontent: 
   hidecredits: false
   hidecopyright: false
-  showNavTitle: false           # Boolean: show site title in nav bar
-  custom_css: 
-    - style.css
+  # showNavTitle: false           # Boolean: show site title in nav bar
+  # custom_css: 
+  #   - style.css
 
 menu:
   main:
@@ -35,10 +35,8 @@ menu:
     - name: Tags
       weight: 4
       url: /tags/
-    # - name: Recipes
-    #   weight: 5
-    #   url: /recipes/
+
 taxonomies:
   category: category
-  cusine: cuisine
+  cuisine: cuisine
   tag: tags
