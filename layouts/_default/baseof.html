@@ -27,21 +27,24 @@
 
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32x32.png" | absURL }}" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16x16.png" | absURL }}" sizes="16x16">
+    
+    <script language="javascript" type="text/javascript" src="/js/dropdown.js"></script>
+    
     {{ hugo.Generator }}
 
   </head>
 
-  <body class="{{ if .Site.Params.rtl }}rtl{{ end }}">
+  <body>
     <main class="wrapper">
       {{ partial "header.html" . }}
 
       <div class="content">
         {{ block "content" . }}{{ end }}
       </div>
-      {{ if or (.Site.Params.fixedbarContent) (.Site.Params.snsShare)}}
         {{ partial "footer.html" . }}
-      {{ end }}
     </main>
 
   </body>
+
+
 </html>
