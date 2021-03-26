@@ -1,8 +1,8 @@
-<div class="navigation">
+<div class="navbar">
   <a href="{{ .Site.BaseURL }}" id="mainTitle">Recipe Book</a>
-  <section class="dropdown", style="float:right;">
-    <a href="javascript:void(0)" class="dropbtn">&#9776;</a>
-        <div class="dropdown-content">
+  <section class="dropdown">
+    <a class="dropbtn" onclick="myFunction()">&#9776;</a>
+        <div class="dropdown-content" id="myDropdown">
         {{ with .Site.Menus.main}}
           {{ range sort . }}
           <a href="{{ .URL | absLangURL }}"> {{ .Name }}</a>
@@ -10,6 +10,5 @@
         {{ end }}
       </div>
       </ul>
-    </label>
   </section>
 </div>
