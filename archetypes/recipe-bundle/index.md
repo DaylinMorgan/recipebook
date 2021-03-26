@@ -24,6 +24,9 @@ notes: #extra info about the recipe --- must be a list!
   # - don't watch the water boil, it slows it down
 
 basedon: # reference links 
-# - https://www.food.com/recipe/traditional-peanut-butter-and-jelly-243965
+    # link: # web links to other recipes or videos 
+        # - https://www.food.com/recipe/traditional-peanut-butter-and-jelly-243965
+    # image: # name of image in directory with the recipe
+        # - recipe-reference.jpg
 
 ---
