@@ -84,7 +84,7 @@
     {{ if .Params.cuisine }}
     <strong>cuisines:</strong>
       {{ range $key, $value := .Params.cuisine }}
-    <a href="/tags/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.cuisine) 1) }},
+    <a href="/cuisine/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.cuisine) 1) }},
       {{ else }}{{ end }}
     {{ end }}
     </br>
@@ -93,7 +93,7 @@
     {{ if .Params.category }}
     <strong>categories:</strong>
       {{ range $key, $value := .Params.category }}
-    <a href="/tags/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.category) 1) }},
+    <a href="/category/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.category) 1) }},
       {{ else }}{{ end }}
     {{ end }}
     </br>
