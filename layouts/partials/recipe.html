@@ -55,12 +55,17 @@
   <section id="basedon">
     <h2>based on</h2>
     <ul>
-      {{ range $index, $element := .Params.basedon }}
-      {{ $linknum := add $index 1}}
-      <li><a href="{{ . }}">Ref. {{ $linknum }}</a></li>
-      {{end}}
+      {{ range $index, $element := .Params.basedon.link }}
+      {{ $linknum := add $index 1 }}
+      <li><a href="{{ . }}">Ref. Link {{ $linknum }}</a></li>
+      {{ end }}
+
+      {{ range $index, $element := .Params.basedon.image }}
+      {{ $linknum := add $index 1 }}
+      <li><a href="{{ . }}">Ref. Image {{ $linknum }}</a></li>
+      {{ end }}
     </ul>
-    {{end}}
+    {{ end }}
   </section>
 
   <!-- links to related recipes -->
