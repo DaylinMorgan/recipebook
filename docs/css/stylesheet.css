@@ -262,13 +262,13 @@ ol li {
   text-align: center;
   padding: 30px ;
   margin: auto;
-  width: 80%;
+  width:45em;
 }
 
-.navbar a {
-  /* margin-right: 1.1em; */
+/* .navbar a {
+  margin-right: 1.1em; 
 
-}
+} */
 
 .dropdown {
   float:right;
@@ -292,9 +292,6 @@ ol li {
 }
 
 .dropdown-content {
-  right: 130px;
-  left: auto;
-  /* right:0; */
   display: none;
   position: absolute;
   background-color: #f9f9f9;
