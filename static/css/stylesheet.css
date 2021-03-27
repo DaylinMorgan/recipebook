@@ -422,6 +422,11 @@ svg.linkIcon,
   font-weight: 700;
 }
 
+#related {
+  line-height: 1.3em;
+  margin-bottom: 0.4em
+}
+
 .externalArrow {
   height: 0.8em;
   margin: 0 0 -0.08em 0.1em;
