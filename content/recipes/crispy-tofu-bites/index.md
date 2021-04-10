@@ -38,12 +38,6 @@ directions:
   - Transfer the hot tofu straight into the bowl with the sauce and sprinkle on the sesame seeds. Toss to coat the tofu with glaze and then transfer the tofu to a serving plate.
   - Garnish with more sesame seeds, black pepper, and chopped scallion greens.
 
-  - Add butter to warm macaroni and mix until melted. Season with the remaining salt and pepper.
-  - Add 1 cup of cheddar, mozzarella, provolone, Gouda, and feta cheese. Mix well.
-  - Add eggs and evaporated milk, mix until fully incorporated.
-  - Transfer to a 9x13-inch baking dish and top with the remaining cheddar cheese.
-  - Bake in a preheated oven for 40–45 minutes, until the top has nicely browned.
-
 basedon:
   link:
     - https://norecipes.com/crispy-tofu-bites/
