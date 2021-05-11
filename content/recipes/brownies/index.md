@@ -3,7 +3,7 @@ layout: recipe
 date: 2021-05-08T06:24:02-05:00
 draft: false
 title: "Brownies" # The title of your awesome recipe
-image: xkcd720.png # Name of image in recipe bundle
+image: /images/xkcd720.png # Name of image in recipe bundle
 category: # type of meal --- must be a list!
 - Dessert
 cuisine: # region for recipe --- must be a list!
