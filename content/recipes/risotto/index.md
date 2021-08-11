@@ -10,7 +10,6 @@ cuisine: # region for recipe --- must be a list!
   - Italian
 tags: # general info to connect to other recipes --- must be a list! 
   - rice
-  - untested 
 yield: # number of servings
 prepTime: 
 cookTime: 

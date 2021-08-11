@@ -9,7 +9,6 @@ category: # type of meal --- must be a list!
 cuisine: # region for recipe --- must be a list!
   - Japanese
 tags: # general info to connect to other recipes --- must be a list!
-  - untested
   - vegan
   - vegetarian
 yield: # number of servings
