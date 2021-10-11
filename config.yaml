@@ -1,5 +1,4 @@
-baseURL: '/'
-disablePathToLower: true
+baseURL: 'https://recipes.dayl.in'
 languageCode: en-us
 title: Recipe Book
 
