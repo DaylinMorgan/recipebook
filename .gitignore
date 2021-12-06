@@ -6,6 +6,7 @@
 /public/
 /resources/_gen/
 hugo_stats.json
+.hugo_build.lock
 
 # Executable may be added to repository
 hugo.exe
@@ -16,3 +17,6 @@ hugo.linux
 .vscode/*
 tmp/*
 # End of https://www.toptal.com/developers/gitignore/api/hugo,vscode
+
+.pnpm-debug.log
+
