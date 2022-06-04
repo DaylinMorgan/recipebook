@@ -1,0 +1,35 @@
+baseURL = "https://recipes.dayl.in"
+canonifyurls = true
+defaultcontentlanguage = "en"
+languageCode = "en-us"
+title = "Recipe Book"
+
+[[menu.main]]
+name = "Category"
+url = "/category/"
+weight = 1
+[[menu.main]]
+name = "Cuisine"
+url = "/cuisine/"
+weight = 2
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[module.imports]]
+path = "github.com/daylinmorgan/simple-recipe"
+
+[params]
+  author = "Daylin Morgan"
+  description = "recipes for daylin and friends"
+  email = "me@dayl.in"
+  favicon_16 = "/images/favicon-16x16.png"
+  favicon_32 = "/images/favicon-32x32.png"
+  help = true
+  keywords = "recipes"
+
+[taxonomies]
+  category = "category"
+  cuisine = "cuisine"
+  tag = "tags"
