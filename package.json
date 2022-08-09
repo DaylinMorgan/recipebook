@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Simple Recipe Theme for Hugo",
   "scripts": {
-    "hugo:prd": "hugo -e production -v --i18n-warnings --minify --gc --cleanDestinationDir",
-    "hugo:dev": "hugo -e development --config config.yml,config.toml,config.dev.toml -v --i18n-warnings --gc --cleanDestinationDir --buildDrafts --buildFuture",
-    "hugo:srv": "hugo server -e development --config config.yml,config.toml,config.dev.toml -v --i18n-warnings --buildDrafts --buildFuture --disableFastRender"
+    "hugo:prd": "hugo -e production -v --minify --gc --cleanDestinationDir",
+    "hugo:dev": "hugo -e development --config config.yml,config.toml,config.dev.toml -v --gc --cleanDestinationDir --buildDrafts --buildFuture",
+    "hugo:srv": "hugo server -e development --config config.yml,config.toml,config.dev.toml -v --buildDrafts --buildFuture --disableFastRender"
   }
 }
