@@ -35,14 +35,14 @@ directions:
 - Remove the bacon when brown to an a second pot, but keep the drippings in the heavy pot
 - Brown the beef and pork in the heavy pot, when complete remove to the bacon pot, leave the drippings
 - Add the peppers, onion, shallots, jalapeno to the heavy pot and saute/brown over medium heat until soft 
-- Once the items in #4 are starting to get soft, add the garlic and cook until #4 is complete (don't let the garlic burn)
+- "Once the items in #4 are starting to get soft, add the garlic and cook until #4 is complete (don't let the garlic burn)"
 - Add the meat and bacon back into the heavy pot
 - Add the tomatoes (and juice from can), one full container of Chili powder, cumin, paprika and mix well (add up to 2 teaspoons of salt)
 - Add enough beer to cover mixture
 - Bring to a boil and then cut back to a simmer
 - Simmer a few hours, if liquid level gets low, add more beer
 - After two hours, stir in the brown sugar and 1/2 the second bottle of chili powder
-- After another hour taste, if it needs more chili taste add more chili powder.  If it needs more sweetness add molasses. Salt if needed. (I think I've tended to add more molasses for sweetness and chili powder rather than jalapeno for sweetness)
+- After another hour taste, if it needs more chili taste add more chili powder.  If it needs more sweetness add molasses. Salt if needed.
 - Keep simmering and watching liquid level, adding beer as needed
 - If you want more of a kick, add more jalapeno, but be careful, we have had issues with things getting overly seasoned
 - Keep skimming off the grease that floats to the top of the pot
@@ -58,5 +58,4 @@ directions:
         # - https://www.food.com/recipe/traditional-peanut-butter-and-jelly-243965
     # image: # name of image in directory with the recipe
         # - recipe-reference.jpg
-
 ---
