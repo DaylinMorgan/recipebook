@@ -21,3 +21,4 @@ tmp/*
 .pnpm-debug.log
 
 .task.mk
+themes/simple-recipe

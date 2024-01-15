@@ -1,15 +1,10 @@
-DEV_FLAGS = -e development \
-	--config config.yml,config.toml,config.dev.toml \
-	--buildDrafts --buildFuture --logLevel info
+serve: ## start dev build of site
+	HUGO_MODULE_REPLACEMENTS="github.com/daylinmorgan/simple-recipe -> simple-recipe" \
+		hugo serve --buildDrafts --buildFuture --logLevel info
 
-build: ## build site
-	hugo -e production --minify --gc --cleanDestinationDir --logLevel info
+dev-build: ## build with local theme
+	HUGO_MODULE_REPLACEMENTS="github.com/daylinmorgan/simple-recipe -> simple-recipe" \
+		hugo
 
-dev: ## build dev site
-	hugo $(DEV_FLAGS) --gc --cleanDestinationDir
-
-serve: ## serve dev site
-	hugo server $(DEV_FLAGS) --disableFastRender
-
--include .task.mk
-$(if $(filter help,$(MAKECMDGOALS)),$(if $(wildcard .task.mk),,.task.mk: ; curl -fsSL https://raw.githubusercontent.com/daylinmorgan/task.mk/v23.1.2/task.mk -o .task.mk))
+-include .task.cfg.mk .task.mk
+$(if $(filter help,$(MAKECMDGOALS)),$(if $(wildcard .task.mk),,.task.mk: ; curl -fsSL https://raw.githubusercontent.com/daylinmorgan/task.mk/v23.1.1/task.mk -o .task.mk))
