@@ -3,7 +3,6 @@ layout: recipe
 date: 2021-03-25T19:31:55-05:00
 draft: false
 title: "Caramel Popcorn" # The title of your awesome recipe
-image: xkcd720.png # Name of image in recipe bundle
 category: # type of food --- must be a list!
   - snack
 cuisine: # region for recipe --- must be a list!

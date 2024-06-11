@@ -3,7 +3,6 @@ layout: recipe
 date: 2023-01-01T14:06:54-06:00
 draft: false
 title: "Chili"
-image: xkcd720.png # Name of image in recipe bundle
 category: # type of meal --- must be a list!
 - Dinner
 cuisine: # region for recipe --- must be a list!

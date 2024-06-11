@@ -2,7 +2,6 @@
 layout: recipe
 date: 2024-03-17T16:13:33-05:00
 title: "Buffalo Chicken Dip" # The title of your awesome recipe
-image: xkcd720.png # Name of image in recipe bundle
 category: # type of meal --- must be a list!
   - Snack
 cuisine: # region for recipe --- must be a list!

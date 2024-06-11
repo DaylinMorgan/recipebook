@@ -3,7 +3,6 @@ layout: recipe
 date: 2021-03-25T19:37:23-05:00
 draft: false
 title: "Vodka Sauce" # The title of your awesome recipe
-image: xkcd720.png # Name of image in recipe bundle
 category:
   - Dinner
 cuisine:
