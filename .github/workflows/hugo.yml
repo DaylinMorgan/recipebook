@@ -28,10 +28,10 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - uses: actions/checkout@v4
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
+      # - name: Setup Pages
+      #   id: pages
+      #   uses: actions/configure-pages@v5
+      
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
