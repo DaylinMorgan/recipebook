@@ -1,28 +1,30 @@
 #!/usr/bin/env python3
-# # https://github.com/daylinmorgan/swydd?tab=readme-ov-file#automagic-snippet
-# fmt: off
-if not (src := __import__("pathlib").Path(__file__).parent / "swydd/__init__.py").is_file(): # noqa
-    try: __import__("swydd") # noqa
-    except ImportError:
-        import sys; from urllib.request import urlopen; from urllib.error import URLError # noqa
-        try: r = urlopen("https://raw.githubusercontent.com/daylinmorgan/swydd/main/src/swydd/__init__.py") # noqa
-        except URLError as e: sys.exit(f"error fetching swydd: {e}\n") # noqa
-        src.parent.mkdir(exist_ok=True); src.write_text(r.read().decode("utf-8")); # noqa
-# fmt: on
 
-import swydd as s
+if not (
+    (_i := __import__)("importlib.util").util.find_spec("swydd")
+    or (_src := _i("pathlib").Path(__file__).parent / "swydd/__init__.py").is_file()
+):  # noqa | https://github.com/daylinmorgan/swydd?tab=readme-ov-file#automagic-snippet
+    _r = _i("urllib.request").request.urlopen("https://swydd.dayl.in/swydd.py")
+    _src.parent.mkdir(exist_ok=True)
+    _src.write_text(_r.read().decode())
 
-s.define_env("HUGO_MODULE_REPLACEMENTS","github.com/daylinmorgan/simple-recipe -> simple-recipe")
+from swydd import setenv, task, sub, cli, ctx
 
-@s.task
+setenv(
+    "HUGO_MODULE_REPLACEMENTS",
+    "github.com/daylinmorgan/simple-recipe -> simple-recipe",
+)
+
+@task
 def serve():
     """start dev build of site"""
-    s.sh("hugo serve --buildDrafts --buildFuture --logLevel info")
+    sub("hugo serve --buildDrafts --buildFuture --logLevel info " + " ".join(ctx.rest))
 
 
-@s.task
+@task
 def build():
     "build with local theme"
-    s.sh("hugo")
+    sub("hugo" + " ".join(ctx.rest))
 
-s.cli()
+
+cli("serve")
