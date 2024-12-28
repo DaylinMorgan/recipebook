@@ -12,7 +12,7 @@ tags: # general info to connect to other recipes --- must be a list!
 
 ingredients:
   - 1 cup brown sugar
-  - 1/2 cup marrgarine, melted
+  - 1/2 cup margarine, melted
   - 1/4 cup corn syrup
   - 1/2 tsp. salt
   - 1/2 tsp. baking soda
@@ -22,7 +22,7 @@ ingredients:
 directions:
   - Put popcorn in paper sack
   - Mix sugar, butter, corn syrup and salt in glass bowl
-  - Heat in microwave for 2 minutes on high stir. Repeat.
+  - Heat in microwave for 2 minutes on high. Stir. Repeat.
   - Add backing soda
   - Pour caramel over popcorn
   - Shake popcorn vigoursouly to well mix caramel
@@ -32,6 +32,7 @@ directions:
 notes:
   - butter can be substituted for margarine but may make the popcorn more greasy
   - if caramel is not well mixed while it is still hot aggregates of caramel will get too hot and burn in the paper bag
+  - if the caramel is split you can try adding a splash of water and heating again in the microwave to improve the texture
 
 basedon:
 #   link:
