@@ -26,5 +26,10 @@ def build():
     "build with local theme"
     sub("hugo" + " ".join(ctx.rest))
 
+@task
+def update():
+    """update simple-recipe hash"""
+    sub("hugo mod get")
+    sub("hugo mod tidy")
 
 cli("serve")
