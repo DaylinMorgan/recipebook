@@ -48,9 +48,8 @@ directions:
 - After four hours or so, stop adding beer so the liquid evaporates and you get to the texture you are looking for
 - At this point, remove from heat, cover and let it sit as long as you can.  The 2nd day is always better than the first
 
-# notes: #extra info about the recipe --- must be a list!
-  # - don't watch the water boil, it slows it down
-
+notes: #extra info about the recipe --- must be a list!
+  - beef broth and water can be substituted for beer
 
 # basedon: # reference links 
     # link: # web links to other recipes or videos 
